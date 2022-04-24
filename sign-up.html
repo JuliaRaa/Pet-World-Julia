@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style-signup-login.css">
+</head>
+<body>
+    <div class="container">
+        <div class="flex center" style="max-width: 300px;">
+            <div ><img src="./assets/image/Logo.png" max-width="60px" ></div>
+            <div class="logo-title" style="margin-bottom: 5px;" ><b>PETWORLD</b></div>
+        </div>
+        <h2>Welcome to, <br> PETWORLD </h2><br>
+        <h3>Getting Started</h3>
+        <p>Creat an account to continue</p>
+        <form action="/action_page.php">
+            <label for="email">Email</label>
+            <input type="email"  placeholder="Email" id="email" name="email">
+
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" placeholder="Username">
+
+            <label for="password">Password</label>
+            <input type="password"  placeholder="Password" id="password" name="password">
+            
+            <label for="confirm-password">Confirm Password</label>
+            <input type="confirm-password"  placeholder="Confirm-Password" id="confirm-password" name="confirm-password">
+
+            <input type="checkbox"  id="vehicle1" name="vehicle1" value="term&condition">
+            <label for="vehicle1">By creating an account, you agree to our <b>Term and Condition</b></label><br><br>
+
+            <input type="register" value="Register Now">
+        </form>
+    </div>
+</body>
+</html>
