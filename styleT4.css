@@ -370,7 +370,7 @@ li a, .dropbtn {
 /* End footer */
 /* End For Mobile Phones: */
 
-/* Start For Desktop: */
+/* Start For Tablet: */
 @media (min-width: 500px){
     .wrap-quote img {
         width: 50%;
@@ -495,4 +495,31 @@ li a, .dropbtn {
     }
     
 }
-/* Start For Desktop: */
+/* End For Tablet */
+
+/* Start For Desktop */
+@media (min-width: 1024px){
+    .wrap-great, .wrap-contact {
+        padding: 70px 70px;
+    }
+    
+    .wrap-great div, .wrap-contact div {
+        width: 80%;
+    }
+    .greet-text, .contact-text {
+        margin-left: 40px;
+    }
+    .wrap-great img, .wrap-contact img {
+        width: 100%;
+        height: auto;
+        padding-top: 50px;
+    }
+    .wrap-great h1, .wrap-contact h1 {
+        font-size: 70px;
+    } 
+    
+    .wrap-great p, .wrap-contact p {
+        max-width: 300px;
+    }
+}
+/* End For Desktop: */
